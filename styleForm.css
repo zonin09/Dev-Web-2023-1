@@ -1,0 +1,82 @@
+body { 
+    height: 600px;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#titleForm { 
+    position: absolute;
+    top: 25px;
+    font-size: 18pt;
+    left: 85px;
+}
+#name { 
+    position: absolute;
+    font-size: 15pt;
+    left: 95px;
+    top: 90px;
+}
+#nameInput { 
+    position: absolute;
+    top: 90px;
+    padding: 5px;
+    left: 170px;
+}
+#idade { 
+    position: absolute;
+    font-size: 15pt;
+    left: 95px;
+    top: 150px;
+}
+#idadeInput { 
+    position: absolute;
+    top: 150px;
+    padding: 5px;
+    left: 170px;
+}
+#email { 
+    position: absolute;
+    font-size: 15pt;
+    left: 95px;
+    top: 210px;
+}
+#emailInput { 
+    position: absolute;
+    top: 210px;
+    padding: 5px;
+    left: 170px;
+}
+#password { 
+    position: absolute;
+    font-size: 15pt;
+    left: 95px;
+    top: 270px;
+}
+#passwordInput { 
+    position: absolute;
+    top: 270px;
+    padding: 5px;
+    left: 170px;
+}
+#button { 
+    position: absolute;
+    width: 252px;
+    bottom: 50px;
+    left: 95px;
+    font-size: 12pt;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1fd3b3;
+}
+#form { 
+    margin: 0 auto;
+    width: 180px;
+    height: 180px;
+    padding: 130px;
+    position: relative;
+    top: 75px;
+    border-radius: 10px;
+    background-color: #aeb4e2;
+
+}
