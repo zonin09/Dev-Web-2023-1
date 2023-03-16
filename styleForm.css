@@ -1,5 +1,5 @@
 body { 
-    height: 600px;
+    height: 570px;
     background-color: #00DBDE;
     background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -68,6 +68,7 @@ body {
     border: none;
     border-radius: 5px;
     background-color: #1fd3b3;
+    color: white;
 }
 #form { 
     margin: 0 auto;
@@ -78,5 +79,4 @@ body {
     top: 75px;
     border-radius: 10px;
     background-color: #aeb4e2;
-
 }
