@@ -9,12 +9,23 @@
         #visor {
             border: 2px solid #000;
             text-align: right;
-            width: 200px;
+            width: 110px;
+            top: 35px;
+            padding: 10px;
+            position: relative;
+            left: 550px;
+            font-size: 20pt;
         }
         .botao {
             border: 1px solid #000;
             border-radius: 3px;
             padding: 5px;
+            text-align: center;
+            position: relative;
+            left: 550px;
+            top: 50px;
+            font-size: 25pt;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -84,10 +95,12 @@
             <td class="botao" onclick="cliqueBtn('/')">/</td>
         </tr>
     </table>
+    </div>
     valor1: <input type="number" id="valor1"/><br/>
     valor2:  <input type="number" id="valor2"/><br/>
     <button id="btnigual" onclick="clique()">
         =</button>
      <span id="resultado"></span>
+
 </body>
 </html>
