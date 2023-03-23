@@ -56,10 +56,7 @@
             a função eval entende o conteúdo do visor como uma string e então faz o calculo que está nela */
         function calcular() { 
             var resultado = document.getElementById('visor').innerHTML;
-            if(resultado)
-            {
-                document.getElementById('visor').innerHTML = eval(resultado);
-            }
+            document.getElementById('visor').innerHTML = eval(resultado);
         }
         /* a função limpar será executada quando o usuário clicar "C" na calculadora
             assim tornando o conteúdo do visor 0 novamente sem inteferir nos próximos cálculos */
